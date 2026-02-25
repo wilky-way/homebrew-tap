@@ -1,7 +1,7 @@
 cask "bord" do
   arch arm: "aarch64", intel: "x64"
-  version "5.0.3"
-  sha256 arm: "df00e56d75ee6c7c37b4dcff16dcfd7a2f139decf005e628a2ca66e57693d406", intel: "fd07ea41a5ba7a615f057425b4e884aee84f51a3c85e4cb14b538c916d217a6f"
+  version "5.0.4"
+  sha256 arm: "0a8214a9114ca2eb8ed7e4b1478e5bbc03e5532bb785cde5d37d93d36fddae6b", intel: "f2f9894b4cfc2d7b6b326523fd4bf6e400bd27f249ce1cf13135f06b61b337ee"
 
   url "https://github.com/wilky-way/bord/releases/download/v#{version}/bord_#{version}_#{arch}.dmg"
 
